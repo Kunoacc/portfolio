@@ -1,5 +1,9 @@
 @extends('shared.main')
 
+@section('head')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.css" />
+@endsection
+
 @section('content')
 
     <!--Middle-->
@@ -33,5 +37,12 @@
         </div>
     </div>
     <!--Middle End-->
+
+@endsection
+
+@section('scripts')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.js"></script>
+    <script src="js/main.js"></script>
 
 @endsection
