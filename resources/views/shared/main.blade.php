@@ -50,7 +50,9 @@
         </div>
     </div>
 
-@yield('scripts')
 @include('shared.scripts')
+
+@yield('scripts')
+
 </body>
 </html>
