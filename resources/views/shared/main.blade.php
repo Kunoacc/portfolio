@@ -5,10 +5,10 @@
 
 <body>
     <div class="wrapper">
-        <div class="row h-100 w-100">
+        <div class="row position-absolute h-100 w-100">
             <div class="w-75 bg-white"></div>
             <div class="position-absolute d-flex flex-column w-100 h-100">
-                <div class="justify-content-center h-75 w-75 bg-white m-auto box-shadow">
+                <div class="justify-content-center py-5 w-75 bg-white m-auto box-shadow">
                     <div class="d-flex flex-column h-100 {{(url()->current() == route('contact')) ? 'bg-image' : ''}}">
                     @if(url()->current() == route('contact'))
                     <div class="bg-white-gradient d-flex flex-column h-100">

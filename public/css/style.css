@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans');
 .wrapper{
     height: 100vh;
+    max-height: 1050px;
     width: 100vw;
     background: royalblue;
 }
