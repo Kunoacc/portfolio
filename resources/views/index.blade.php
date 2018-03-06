@@ -3,7 +3,7 @@
 @section('content')
 
     <!--Middle-->
-    <div class="ml-4 h-75  d-flex flex-column">
+    <div class="ml-4 h-75 d-flex flex-column">
         <div class="container my-auto">
             <div class="row">
                 <div class="col-8">

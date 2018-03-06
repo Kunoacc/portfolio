@@ -16,5 +16,5 @@ Route::view('/', 'index')->name('index');
 Route::view('/works', 'works')->name('works');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/login', 'login')->name('login');
-Route::view('/admin', 'admin.index')->name('admin');
+Route::view('/admin', 'admin.index')->name('admin')->middleware('auth');
 
